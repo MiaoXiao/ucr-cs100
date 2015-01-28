@@ -1,1 +1,8 @@
-/ 100
+100 / 100
+
++10 extra
+
+no examples of:
+-5: at least two examples of mixing and matching diff. operators in one command
+-10: exit with params, exit as a param
+
