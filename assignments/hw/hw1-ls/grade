@@ -1,6 +1,6 @@
-0 / 100
+ 0    / 100  
 
-$ make
+    $ make
 mkdir -p ./bin
 g++ -Wall -Werror -ansi -pedantic ./src/ls.cpp -o ./bin/ls
 ./src/ls.cpp: In function ‘void displayls(std::vector<std::basic_string<char> >, std::vector<bool>, std::string, std::stack<std::basic_string<char> >&)’:
