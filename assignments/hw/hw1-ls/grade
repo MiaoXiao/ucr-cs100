@@ -1,11 +1,5 @@
- 0    / 100  
+110 / 100
 
-    $ make
-mkdir -p ./bin
-g++ -Wall -Werror -ansi -pedantic ./src/ls.cpp -o ./bin/ls
-./src/ls.cpp: In function ‘void displayls(std::vector<std::basic_string<char> >, std::vector<bool>, std::string, std::stack<std::basic_string<char> >&)’:
-./src/ls.cpp:114:22: error: the address of ‘userinfo’ will never be NULL [-Werror=address]
-./src/ls.cpp:123:23: error: the address of ‘groupinfo’ will never be NULL [-Werror=address]
-cc1plus: all warnings being treated as errors
-make: *** [ls] Error 1
+-5: No test in which a file (not directory) is passed as parameter to ls.
++15: coloring
 
