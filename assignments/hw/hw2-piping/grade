@@ -1,4 +1,4 @@
-25 / 100
+45 / 100
 
 Input Redirection: 20/25
     [5/5] Input redirection from an existant file
@@ -22,8 +22,8 @@ Piping: 0/50
     [0/10] Input redirection, output redirection, and piping
 Extra Credit: 0/40
     [0/20] Input redirection from string
-    [0/20] Output redirection from file descriptors
+    [20/20] Output redirection from file descriptors
 
 -20 point penalty for submission mistake
 
-Total: 25/100
+Total: 45/100
